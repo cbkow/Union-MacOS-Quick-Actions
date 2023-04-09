@@ -162,7 +162,7 @@
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>647.750000:274.000000</string>
+				<string>640.250000:274.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -236,6 +236,8 @@ osascript -e 'display alert "rsync" message "'"$filename"' will copy to '"$2"'. 
 # run command
 
 "$rsync_loc" -ahP "$1" "$2"&gt;&amp;~/Desktop/rsync_"$filename"_log_"$timestamp" &amp;&amp; 
+
+"$rsync_loc" -avnc "$1" "$2"&gt;&amp;~/Desktop/rsync_verified_"$filename"_log_"$timestamp" &amp;&amp; 
 
 # clean up and close out
 
@@ -355,7 +357,7 @@ osascript -e 'tell application "Terminal" to close (every window whose busy is f
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>647.750000:755.000000</string>
+				<string>640.250000:715.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -365,7 +367,7 @@ osascript -e 'tell application "Terminal" to close (every window whose busy is f
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>8ECDFDE3-D63A-4408-867A-FD3839A402A9</key>
+		<key>F8AF7C09-3008-4EB5-8857-3D466DD67578</key>
 		<dict>
 			<key>from</key>
 			<string>4509258E-D09D-4856-A888-C85E0BE1F7CD - 4509258E-D09D-4856-A888-C85E0BE1F7CD</string>

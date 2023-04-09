@@ -33,6 +33,7 @@ Most of these Quick Actions use a command-line application to monitor progress. 
 ## Rsync
 * Rsync is a safe way to copy large amounts of data. This Quick Action automates the process and lets you track large data copies. 
 * Usage: right-click on a folder and apply. It will ask you to select a destination. While copying, the action will write a timestamped log to your Desktop. 
+* It will run a verification pass after copying the files over and print a second log to you desktop. If no files are listed in the second *"verified"* log, the file copy was 100% successful.
 
 # Installation
 
