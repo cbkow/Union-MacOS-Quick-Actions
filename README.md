@@ -63,9 +63,9 @@ First, click **Code** at the top of this page and then select **Download Zip.** 
 ### Set up the Quick Actions.
 * To set up the actions, right-click on any file and click `customize`. Toggle the Quick Actions you want.
 
-![IINA screenshot 1](images/qa1.jpg)
+![Quick Actions screenshot 1](images/qa1.jpg)
 
-![IINA screenshot 1](images/qa2.jpg)
+![Quick Actions screenshot 1](images/qa2.jpg)
 
 # Manually Configuring IINA
 * In IINA, were are going to set up three custom video filters for the following: ACEScg-to-sRGB color space conversion, HD Safety guides, and UHD safety guides. This configuration will allow us to toggle them on and off whenever needed. To make a new filter, open `/Applicaitons/IINA` and then navigate the menu to `Video > Video Filters`. Click the plus sign to add new filters and save them after setup.
