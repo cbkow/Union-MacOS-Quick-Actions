@@ -70,10 +70,16 @@ First, click **Code** at the top of this page and then select **Download Zip.** 
 # Manually Configuring IINA
 * In IINA, were are going to set up three custom video filters for the following: ACEScg-to-sRGB color space conversion, HD Safety guides, and UHD safety guides. This configuration will allow us to toggle them on and off whenever needed. To make a new filter, open `/Applicaitons/IINA` and then navigate the menu to `Video > Video Filters`. Click the plus sign to add new filters and save them after setup.
 
-![IINA screenshot 1](images/iina.jpg)
+![IINA screenshot 4](images/iina4.jpg)
 
 ### HD Safety Guide
 * The first filter we will make is for an HD title/action safety guide. Click the plus sign and add a custom FFMPEG filter, add `drawbox` to the *Filter name*, and add this code to *Filter value*: `x=96:y=54:w=1728:h=972:color=green@0.8`. Once this is added and applied, you can name the filter `HD Saftey`, assign a keyboard shortcut, and save the filter for future use.
+
+![IINA screenshot](images/iina.jpg)
+
+![IINA screenshot 2](images/iina2.jpg)
+
+![IINA screenshot 3](images/iina3.jpg)
 
 ### UHD Safety Gudie
 * Next, we will do the same for a UHD safety guide. Use this code for UHD: `x=192:y=108:w=3456:h=1944:color=green@0.8`.
