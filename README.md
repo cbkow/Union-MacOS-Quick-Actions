@@ -50,7 +50,7 @@ First, click **Code** at the top of this page and then select **Download Zip.** 
 ![Homebrew screenshot 2](images/term2.jpg)
 
 ### 2_InstallSoftware.app
-* This second script will install all the apps and dependencies. Click return and enter a password when it asks for it. Let it run until the end--it will take a while. It's finished when Terminal returns your username, like the screenshot below.
+* This second script will install all the applications. It will also upgrade *rsync* to newer version than what is currently packaged with MacOS. Click return and enter a password when it asks for it. Let it run until the end--it will take a while. It's finished when Terminal returns your username, like the screenshot below.
 
 ![Homebrew screenshot 3](images/term3.jpg)
 
