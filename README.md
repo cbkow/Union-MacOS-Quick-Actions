@@ -71,13 +71,13 @@ First, click **Code** at the top of this page and then select **Download Zip.** 
 ![IINA screenshot 1](images/iina.jpg)
 
 ### HD Safety Guide
-* The first filter we will make is for an HD title/action safety guide. Click the plus sign and add a custom FFMPEG filter, give the filter a title, and add this code to *Filter String*: `lavfi=[drawbox=x=96:y=54:w=1728:h=972:color=green@0.8]`. Assign a keyboard shortcut to toggle this on/off.
+* The first filter we will make is for an HD title/action safety guide. Click the plus sign and add a custom FFMPEG filter, give the filter a title, and add this code to *Filter String*: `[drawbox=x=96:y=54:w=1728:h=972:color=green@0.8]`. Assign a keyboard shortcut to toggle this on/off.
 
 ### UHD Safety Gudie
-* Next, we will do the same for a UHD safety guide. Use this code for UHD: `lavfi=[drawbox=x=192:y=108:w=3456:h=1944:color=green@0.8]`.
+* Next, we will do the same for a UHD safety guide. Use this code for UHD: `[drawbox=x=192:y=108:w=3456:h=1944:color=green@0.8]`.
 
 ### ACEScg to sRGB color space conversion
-* For this and any other LUT file you want to install, click the plus sign and create a 3D LUT filter. Name your filter, assign a shortcut, and apply the following code in *Filter String*: `lavfi=[lut3d=interp=trilinear:file=/Users/username/Union_Actions/luts/ACESsRGB_UnionMPV.cube]`. Make sure you change *username* out to your username and apply a path that links to your 3D LUT. NOTE: This will work for any XXXX-to-sRGB/rec709 LUT (in the cube format), so this also works for camera RAW playback too.
+* For this and any other LUT file you want to install, click the plus sign and create a 3D LUT filter. Name your filter, assign a shortcut, and apply the following code in *File Path*: `/Users/username/Union_Actions/luts/ACESsRGB_UnionMPV.cube`. Make sure you change *username* out to your username and apply a path that links to your 3D LUT. NOTE: This will work for any XXXX-to-sRGB/rec709 LUT (in the cube format), so this also works for camera RAW playback too.
 
 # Compatibility
 
