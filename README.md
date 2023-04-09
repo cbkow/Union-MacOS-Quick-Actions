@@ -12,30 +12,6 @@ Other dependancies are *Adobe After Effects, Adobe Premiere.*
 
 Most of these Quick Actions use a command-line application to monitor progress. They will open a Terminal window and provide updates every 2 seconds for every long action.
 
-# Quick Actions Included
-
-## Find After Effects & Find Premiere
-* These two Quick Actions look through a video file's metadata and track back to the software that rendered it. You can use these to find the project that created any video, as long as you render with metadata enabled.
-* Usage: right-click on a video. If it finds the source project, it will copy the path to that project to your clipboard. If it knows you can access that project, it will present the option to open the project directly. 
-
-## Transcode to MP4
-* This Quick Action allows you to right-click on any video file and transcode it to an MP4 appropriate for an online posting. It also copies any After Effects or Premiere metadata to the MP4, so you can always track back to the original project.
-
-## Copy Path 
-* This Quick Action copies the path or any file or folder to the clipboard so you can easily paste it anywhere and share a link to the file or folder.
-
-## Copy LL Path (win)
-* Like the Copy Path Quick Action, this iteration converts a Lucid Link MacOS path to a Lucid Link Windows path so you can share links with Windows peers.
-
-## Render After Effects
-* This Quick Action will launch *aerender*, the After Effects command-line renderer--allowing you to render After Effects projects in the background. HINT: Renders are faster this way.
-* Usage: set up your renders in After Effects and save. Right-Click on the .aep file, and it will render in the Terminal.
-
-## Rsync
-* Rsync is a safe way to copy large amounts of data. This Quick Action automates the process and lets you track large data copies. 
-* Usage: right-click on a folder and apply. It will ask you to select a destination. While copying, the action will write a timestamped log to your Desktop. 
-* It will run a verification pass after copying the files over and print a second log to you desktop. If no files are listed in the second *"verified"* log, the file copy was 100% successful.
-
 # Installation
 
 First, click **Code** at the top of this page and then select **Download Zip.** Unzip the package and copy the `Union_Actions` folder to `users/username/Union_Actions`. *username* will be your user in MacOS. This location is important. All the scripts look here for user-variables needed to run the Quick Actions. Inside `Union_Actions` are four installation scripts. Click on these and install them in sequential order. Then follow the instructions to manually configure IINA.
@@ -88,6 +64,30 @@ First, click **Code** at the top of this page and then select **Download Zip.** 
 * Click the plus sign and create a 3D LUT filter. Select `Trilinear` and enter the *File Path* to the provided ACEScg LUT--found at `/Users/username/Union_Actions/luts/ACESsRGB_UnionMPV.cube`. Make sure you change *"username"* to *"your"* username (don't just copy and paste this path). You can also drag the `ACESsRGB_UnionMPV.cube` from Finder into the field. Save, name, and assign a shortcut to the filter. NOTE: This will work for any XXXX-to-sRGB/rec709 LUT (in the cube format), so it will also work for camera RAW playback. Add any other 3D LUTS in your workflow by following the same steps.
 
 ![IINA screenshot 5](images/iina5.jpg)
+
+# Quick Actions Included
+
+## Find After Effects & Find Premiere
+* These two Quick Actions look through a video file's metadata and track back to the software that rendered it. You can use these to find the project that created any video, as long as you render with metadata enabled.
+* Usage: right-click on a video. If it finds the source project, it will copy the path to that project to your clipboard. If it knows you can access that project, it will present the option to open the project directly. 
+
+## Transcode to MP4
+* This Quick Action allows you to right-click on any video file and transcode it to an MP4 appropriate for an online posting. It also copies any After Effects or Premiere metadata to the MP4, so you can always track back to the original project.
+
+## Copy Path 
+* This Quick Action copies the path or any file or folder to the clipboard so you can easily paste it anywhere and share a link to the file or folder.
+
+## Copy LL Path (win)
+* Like the Copy Path Quick Action, this iteration converts a Lucid Link MacOS path to a Lucid Link Windows path so you can share links with Windows peers.
+
+## Render After Effects
+* This Quick Action will launch *aerender*, the After Effects command-line renderer--allowing you to render After Effects projects in the background. HINT: Renders are faster this way.
+* Usage: set up your renders in After Effects and save. Right-Click on the .aep file, and it will render in the Terminal.
+
+## Rsync
+* Rsync is a safe way to copy large amounts of data. This Quick Action automates the process and lets you track large data copies. 
+* Usage: right-click on a folder and apply. It will ask you to select a destination. While copying, the action will write a timestamped log to your Desktop. 
+* It will run a verification pass after copying the files over and print a second log to you desktop. If no files are listed in the second *"verified"* log, the file copy was 100% successful.
 
 # Compatibility
 
