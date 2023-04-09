@@ -56,7 +56,7 @@ First, click **Code** at the top of this page and then select **Download Zip.** 
 * This third script will connect all the Quick Actions to the software on your computer. It's mostly automated except `aerender` and will ask you to manually navigate to, and select, *aerender*. Choose any random file if you don't have After Effects and don't plan on using the rendering Quick Action. HINT: *aerender* is most likely in a location like `/Applications/Adobe After Effects 2023/aerender`.
 
 ### 4_InstallScripts.app
-* The fourth and final step is to copy all the workflow files from `user/username/Union_Actions/Union_Services' to 'user/username/Library/Services`. The Library is a hidden folder, so this script will open both folders in Finder--allowing you to copy from one to the other easily.
+* The fourth and final step is to copy all the workflow files from `user/username/Union_Actions/Union_Services` to `user/username/Library/Services`. The Library is a hidden folder, so this script will open both folders in Finder--allowing you to copy from one to the other easily.
 
 ### Set up the Quick Actions.
 * To set up the actions, right-click on any file and click `customize`. Toggle the Quick Actions you want.
