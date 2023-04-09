@@ -1,0 +1,4 @@
+rsync_loc="/usr/bin/rsync"
+aerender_loc="/Applications/Adobe After Effects 2023/aerender"
+ffmpeg_loc="/opt/homebrew/Cellar/ffmpeg/5.1.2_6/bin/ffmpeg"
+exiftool_loc="/opt/homebrew/Cellar/exiftool/12.50/bin/exiftool"
