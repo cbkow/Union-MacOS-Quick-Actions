@@ -7,7 +7,7 @@
 
 These installer scripts will install several custom quick actions in MacOS. The installation is streamlined, and user variables are mostly installed automatically via Automator actions.
 
-Dependencies: *ffmpeg, IINA, exiftool, Adobe After Effects, Adobe Premiere, rysnc, progress, and watch*
+Dependencies: *FFMPEG, IINA, ExifTool, Adobe After Effects, Adobe Premiere, Rysnc, Progress, and Watch.*
 
 Most of these Quick Actions use a command-line application to monitor progress. They will open a Terminal window and provide updates every 2 seconds for every long action.
 
