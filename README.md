@@ -85,7 +85,7 @@ First, click **Code** at the top of this page and then select **Download Zip.** 
 * Next, we will do the same for a UHD safety guide. Use this code for UHD: `x=192:y=108:w=3456:h=1944:color=green@0.8`.
 
 ### ACEScg to sRGB color space conversion
-* For this and any other LUT file you want to install, click the plus sign and create a 3D LUT filter. Name your filter, assign a shortcut, and apply the following code in *File Path*: `/Users/username/Union_Actions/luts/ACESsRGB_UnionMPV.cube`. Make sure you change **username** out to *your* username and apply a path that links to your 3D LUT. NOTE: This will work for any XXXX-to-sRGB/rec709 LUT (in the cube format), so this also works for camera RAW playback too.
+* For this and any other LUT file you want to install, click the plus sign and create a 3D LUT filter. Select `Trilinear` and fill out the *File Path*: `/Users/username/Union_Actions/luts/ACESsRGB_UnionMPV.cube` to the provided ACEScg LUT. Make sure you change **username** out to *your* username (don't just copy and paste this) or simply drag the LUT file into the field. Save, name and assign a shortcut to the filter. NOTE: This will work for any XXXX-to-sRGB/rec709 LUT (in the cube format), so this also works for camera RAW playback too.
 
 ![IINA screenshot 5](images/iina5.jpg)
 
