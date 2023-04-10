@@ -14,7 +14,7 @@ Most of these Quick Actions use a command-line application to monitor progress. 
 
 # Installation
 
-First, click **Code** at the top of this page and then select **Download Zip.** Unzip the package and copy the `Union_Actions` folder to `users/username/Union_Actions`. *username* will be your user in MacOS. This location is important. All the scripts look here for user-variables needed to run the Quick Actions. Inside `Union_Actions` are four installation scripts. Click on these and install them in sequential order. Then follow the instructions to manually configure IINA.
+First, click **Code** at the top of this page and then select **Download Zip.** Unzip the package and copy the `Union_Actions` folder to `users/username/Union_Actions`. *username* will be your user in MacOS. This location is important. All the scripts look here for user-variables needed to run the Quick Actions. Inside `Union_Actions` is a `InstallScripts.zip` which contains four installation scripts. Unzip them. Then click on each to install them in sequential order. Follow the instructions to manually configure IINA.
 
 ## The Installation Scripts
 
