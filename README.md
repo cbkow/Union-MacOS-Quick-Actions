@@ -14,7 +14,7 @@ Most of these Quick Actions use a command-line application to monitor progress. 
 
 # Installation
 
-First, click **Code** at the top of this page and then select **Download Zip.** Unzip the package and copy the `Union_Actions` folder to `users/username/Union_Actions`. Replace *username* with *your username* in MacOS--we are installing to your *home* folder. This location is important. All the scripts look here for user-variables needed to run the Quick Actions. Inside `Union_Actions` is a `InstallScripts.zip` which contains four installation scripts. Unzip them. Then click on each to install them in sequential order. Follow the instructions to manually configure IINA.
+First, click **Code** at the top of this page and then select **Download Zip.** Unzip the package and copy the `Union_Actions` folder to your *home* folder. You can get to your *home* folder in Finder by clicking `Go > Home` in the top menu. The Union_Actions should now live somewhere like `users/username/Union_Actions`. This location is important. All the scripts look here for user-variables needed to run the Quick Actions. Inside `Union_Actions` is a `InstallScripts.zip` which contains four installation scripts. Unzip them. Then click on each to install them in sequential order. Follow the instructions to manually configure IINA.
 > Note: Apple's security policies are going to flip out and you will have to allow usage of each of these scripts in `System Settings > Privacy & Security" 
 
 ![Privacy screenshot 1](images/privacy.jpg)
