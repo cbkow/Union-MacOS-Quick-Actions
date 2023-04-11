@@ -28,7 +28,7 @@ First, click **Code** at the top of this page and then select **Download Zip.** 
 ## The Installation Scripts
 
 ### 1_InstallHomebrew.app
-* This first script installs Homebrew. Homebrew is a package manager that we are using to install other dependencies. Click on the script and follow the instructions. It will ask you to enter your password and press *return*. When finished, it will ask you to run two more commands. **These are important.** Copy and paste each command into the same Terminal window and press return after each paste.
+* This first script installs Homebrew. Homebrew is a package manager that we are using to install other dependencies. Click on the script and follow the instructions. It will ask you to enter your password and press *return*. The password will not be visible when you enter it, so you will have to use your imagination. When finished, it will ask you to run two more commands. **These are important.** Copy and paste them back into Terminal and press Return--one-by-one.
 <br><br>
 
 ![Homebrew screenshot 1](images/term1.jpg)
